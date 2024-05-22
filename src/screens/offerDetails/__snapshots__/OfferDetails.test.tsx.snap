@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferDetails renders the component correctly 1`] = `
+<RCTScrollView
+  style={
+    {
+      "padding": 16,
+    }
+  }
+>
+  <View>
+    <Image
+      source={
+        {
+          "uri": "https://example.com/logo.png",
+        }
+      }
+      style={
+        {
+          "borderRadius": 8,
+          "height": "100%",
+          "resizeMode": "cover",
+          "width": "100%",
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginVertical": 16,
+        }
+      }
+    >
+      Sample Offer
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "marginVertical": 8,
+        }
+      }
+    >
+      This is a sample offer description.
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#555",
+          "fontSize": 16,
+        }
+      }
+    >
+      These are the terms and conditions.
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#007AFF",
+          "borderRadius": 8,
+          "marginVertical": 16,
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Claim Offer
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

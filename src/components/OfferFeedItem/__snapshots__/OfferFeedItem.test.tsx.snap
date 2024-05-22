@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferFeedItem renders the component correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "white",
+      "borderRadius": 8,
+      "marginHorizontal": 16,
+      "marginVertical": 8,
+      "opacity": 1,
+      "padding": 16,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 8,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "https://example.com/logo.png",
+        }
+      }
+      style={
+        {
+          "borderRadius": 20,
+          "height": 40,
+          "marginRight": 8,
+          "width": 40,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Sample Offer
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#810000",
+          "fontSize": 14,
+          "fontStyle": "italic",
+          "fontWeight": "700",
+        }
+      }
+    >
+      Expired on: 
+      Jan 1, 2025
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "fontSize": 16,
+        "marginVertical": 8,
+      }
+    }
+  >
+    This is a sample offer description.
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#099d35",
+        "fontSize": 16,
+        "fontWeight": "700",
+      }
+    }
+  >
+    Cashback: 
+    10
+    %
+  </Text>
+</View>
+`;
