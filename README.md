@@ -45,6 +45,9 @@ The following dependencies are required to run and develop the cashbackapp:
 
 1. **@babel/core** (`^7.20.0`): Babel compiler core.
 
+## Setup project
+
+### `yarn install`
 
 ## Available Scripts
 
